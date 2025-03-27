@@ -787,6 +787,15 @@ body.dark .moon-icon {
     .main-banner-text {
         font-size: 1.5rem;
     }
+    .anydesk-button {
+        display: none;
+    }
+    .nav-header {
+        justify-content: center;
+        padding-left: 0;
+        margin-bottom: 1rem;
+        display:none;
+    }
 
     .typing-text {
         font-size: 1.5rem;
