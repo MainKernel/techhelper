@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHelper - Технічні послуги</title>
+    <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="nav-container">
+    <div class="nav-header">
+        <div class="logo-container">
+            <div class="chip-logo">
+                <svg class="logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
+                          stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.5 7.58008V8.58008C16.5 9.40008 15.83 10.0801 15 10.0801H9C8.18 10.0801 7.5 9.41008 7.5 8.58008V7.58008C7.5 6.76008 8.17 6.08008 9 6.08008H15C15.83 6.08008 16.5 6.76008 16.5 7.58008Z"
+                          stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.13599 14H8.14799" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M12 14H12.012" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M15.864 14H15.876" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M8.13599 17.5H8.14799" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M12 17.5H12.012" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                    <path d="M15.864 17.5H15.876" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+        <span class="text-tech">Tech</span>
+        <span class="text-helper">Helper</span>
+    </div>
+    <div class="nav-menu">
+        <div class="service">
+            <a class="nav-button" href="#services">Послуги</a>
+        </div>
+        <div class="contacts">
+            <a class="nav-button" href="#contacts">Контакти</a>
+        </div>
+        <div class="about">
+            <a class="nav-button" href="#about">Про нас</a>
+        </div>
+        <div class="anydesk-button">
+            <a href="https://anydesk.com/en-gb/downloads/thank-you?dv=win_exe">AnyDesk</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <!-- Banner -->
+    <div class="main-header">
+        <div class="banner">
+            <div class="banner-text">
+                <div class="text-block">
+                    <h2 class="main-banner-text">«Технологія — це продовження вашої волі. І ми робимо її
+                        досконалою.</h2>
+                    <h2 class="main-banner-text">Комп'ютерний майстер у вашому районі</h2>
+                </div>
+                <p>Ми не ремонтуємо комп'ютери. <strong>Ми повертаємо вам свободу:</strong></p>
+                <ul>
+                    <li class="fade-in-item">✨ Швидкість як стандарт — ваш пристрій оживає за години, а не дні.</li>
+                    <li class="fade-in-item">🛠️ Майстер біля вас — не ви їдете до нас. Ми приходимо до вас.</li>
+                    <li class="fade-in-item">🔍 Безкоштовна правда — діагностика, яка покаже все, навіть що ви боялися
+                        знати.
+                    </li>
+                    <li class="fade-in-item">⚡ Гарантія на кожен байт — якщо щось піде не так, ми зробимо це так.</li>
+                </ul>
+                <p>Ваші ноутбуки, телефони, ПК — це не просто техніка. Це <strong>ваші ідеї, спогади, мрії.</strong></p>
+                <p>Ми не дозволяємо їм гинути в пилюці, вірусах чи безладі.</p>
+            </div>
+            <div class="banner-img-container">
+                <svg class="banner-img" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#2563eb"
+                          d="M47.7,-57.2C59.9,-45.8,67.2,-29.6,70.3,-12.5C73.4,4.6,72.3,22.5,63.2,34.9C54.1,47.3,37,54.1,19.3,61.2C1.7,68.3,-16.6,75.7,-32.7,71.5C-48.8,67.3,-62.8,51.5,-69.9,33.3C-77,15.1,-77.3,-5.5,-70.1,-22.2C-63,-38.9,-48.4,-51.7,-33.3,-61.7C-18.2,-71.7,-2.6,-78.9,12.2,-76.8C27,-74.7,35.5,-68.5,47.7,-57.2Z"
+                          transform="translate(100 100)"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- Services content -->
+        <h2 id="services" class="services-header">Послуги</h2>
+
+        <!-- Software Services Section -->
+        <section class="service-section software">
+            <div class="text-header">
+                <h2 class="typing-text">Програмне обслуговування</h2>
+                <div class="text-textblock">
+                    <ul class="text-block-list">
+                        <li>Ви коли-небудь відчували, що техніка — це в'язень власних помилок?</li>
+                        <li>Що кожен клік, кожне оновлення, кожен завислий екран — це кайдани, які ви тягнете роками? Ви
+                            не одинокі.
+                        </li>
+                        <li>Більшість людей живуть у світі, де комп'ютери керують ними, а не навпаки. Але сьогодні ми
+                            зламаємо ці кайдани.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <!-- OS Reinstall Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Перевстановлення ОС</p></div>
+                        <span class="card-price">₴500</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 10H4.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M6.5 14H4.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M19.5 10H17.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M19.5 14H17.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 10V14" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 2V6" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 18V22" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M10 12H14" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто перевстановлення операційної системи.</p>
+                            <p><strong>Це повернення до моменту, коли ваш комп'ютер був швидким, безпечним і готовим до
+                                будь-яких викликів.</strong></p>
+                            <p>Ви коли-небудь відчували, що ваш ПК або ноутбук:</p>
+                            <p>• Повзе, як равлик?</p>
+                            <p>• Захворів на віруси?</p>
+                            <p>• Застряг у минулому через закінчення підтримки ОС?</p>
+                            <p>Це не ваша провина. Це — сигнал, що системі потрібне перезавантаження.</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#os-details">Детальніше</a>
+                </div>
+
+                <!-- OS Migration Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Міграція (оновлення) ОС</p></div>
+                        <span class="card-price">₴500</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.5 13.75C9.5 14.72 10.25 15.5 11.17 15.5H13.05C13.85 15.5 14.5 14.82 14.5 13.97C14.5 13.06 14.1 12.73 13.51 12.52L10.5 11.47C9.91 11.26 9.51001 10.94 9.51001 10.02C9.51001 9.18 10.16 8.49001 10.96 8.49001H12.84C13.76 8.49001 14.51 9.27001 14.51 10.24"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 7.5V16.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M17 3V7H21" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M22 2L17 7" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто оновлення операційної системи.</p>
+                            <p><strong>Це перехід на новий рівень свободи, де ваші дані, звички та файли залишаються з
+                                вами, але світ стає швидшим, безпечнішим і безмежним.</strong></p>
+                            <p>Ви коли-небудь відчували, що:</p>
+                            <p>• Ваш ПК/ноутбук не підтримує новітні програми?</p>
+                            <p>• Ви відстаєте від світу, де колеги легко користуються хмарою?</p>
+                            <p>• Боязнь втратити дані зупиняє вас від оновлення?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#migration-details">Детальніше</a>
+                </div>
+
+                <!-- OS Optimization Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Оптимізація операційної системи</p></div>
+                        <span class="card-price">₴300</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M2 12.8799V11.1199C2 10.0799 2.85 9.21994 3.9 9.21994C5.71 9.21994 6.45 7.93994 5.54 6.36994C5.02 5.46994 5.33 4.29994 6.24 3.77994L7.97 2.78994C8.76 2.31994 9.78 2.59994 10.25 3.38994L10.36 3.57994C11.26 5.14994 12.74 5.14994 13.65 3.57994L13.76 3.38994C14.23 2.59994 15.25 2.31994 16.04 2.78994L17.77 3.77994C18.68 4.29994 18.99 5.46994 18.47 6.36994C17.56 7.93994 18.3 9.21994 20.11 9.21994C21.15 9.21994 22.01 10.0699 22.01 11.1199V12.8799C22.01 13.9199 21.16 14.7799 20.11 14.7799C18.3 14.7799 17.56 16.0599 18.47 17.6299C18.99 18.5399 18.68 19.6999 17.77 20.2199L16.04 21.2099C15.25 21.6799 14.23 21.3999 13.76 20.6099L13.65 20.4199C12.75 18.8499 11.27 18.8499 10.36 20.4199L10.25 20.6099C9.78 21.3999 8.76 21.6799 7.97 21.2099L6.24 20.2199C5.33 19.6999 5.02 18.5299 5.54 17.6299C6.45 16.0599 5.71 14.7799 3.9 14.7799C2.85 14.7799 2 13.9199 2 12.8799Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «прибирання» системи.</p>
+                            <p><strong>Це тонка настройка кожної ноти вашої ОС, щоб вона співала у гармонії з вашими
+                                задачами.</strong></p>
+                            <p>Ви коли-небудь відчували, що ваш пристрій:</p>
+                            <p>• Задумується на порожньому місці, наче чекає дозволу?</p>
+                            <p>• Видає помилки на порожніх екранах, немов бунтує?</p>
+                            <p>• Гальмує на простих діях, як старий паровоз?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#optimization-details">Детальніше</a>
+                </div>
+
+                <!-- Virus Removal Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Видалення вірусів</p></div>
+                        <span class="card-price">₴200 - ₴400</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.65 7.45L14.9 9.2" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.9 7.45L16.65 9.2" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.65 16.55L7.9 18.3" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.9 16.55L9.65 18.3" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.28 2.17C12.12 2.06 11.88 2.06 11.72 2.17L10.28 3.07C10.15 3.15 10 3.09 9.96 2.94L9.51 1.44C9.45 1.26 9.27 1.14 9.09 1.17L7.5 1.36C7.34 1.39 7.2 1.27 7.17 1.12L6.93 -0.47C6.9 -0.65 6.74 -0.78 6.56 -0.78H4.94C4.76 -0.78 4.6 -0.65 4.57 -0.47L4.33 1.12C4.3 1.27 4.16 1.39 4 1.36L2.41 1.17C2.23 1.14 2.05 1.26 1.99 1.44L1.54 2.94C1.5 3.09 1.35 3.15 1.22 3.07L-0.22 2.17C-0.38 2.06 -0.62 2.06 -0.78 2.17L-2.06 2.96C-2.23 3.07 -2.27 3.3 -2.16 3.47L-1.26 4.91C-1.18 5.04 -1.24 5.19 -1.39 5.23L-2.89 5.68C-3.07 5.74 -3.19 5.92 -3.16 6.1L-2.97 7.69C-2.94 7.85 -3.06 7.99 -3.21 8.02L-4.8 8.26C-4.98 8.29 -5.11 8.45 -5.11 8.63V10.25C-5.11 10.43 -4.98 10.59 -4.8 10.62L-3.21 10.86C-3.06 10.89 -2.94 11.03 -2.97 11.19L-3.16 12.78C-3.19 12.96 -3.07 13.14 -2.89 13.2L-1.39 13.65C-1.24 13.69 -1.18 13.84 -1.26 13.97L-2.16 15.41C-2.27 15.58 -2.23 15.81 -2.06 15.92L-0.78 16.71C-0.62 16.82 -0.38 16.82 -0.22 16.71L1.22 15.81C1.35 15.73 1.5 15.79 1.54 15.94L1.99 17.44C2.05 17.62 2.23 17.74 2.41 17.71L4 17.52C4.16 17.49 4.3 17.61 4.33 17.76L4.57 19.35C4.6 19.53 4.76 19.66 4.94 19.66H6.56C6.74 19.66 6.9 19.53 6.93 19.35L7.17 17.76C7.2 17.61 7.34 17.49 7.5 17.52L9.09 17.71C9.27 17.74 9.45 17.62 9.51 17.44L9.96 15.94C10 15.79 10.15 15.73 10.28 15.81L11.72 16.71C11.88 16.82 12.12 16.82 12.28 16.71L13.56 15.92C13.73 15.81 13.77 15.58 13.66 15.41L12.76 13.97C12.68 13.84 12.74 13.69 12.89 13.65L14.39 13.2C14.57 13.14 14.69 12.96 14.66 12.78L14.47 11.19C14.44 11.03 14.56 10.89 14.71 10.86L16.3 10.62C16.48 10.59 16.61 10.43 16.61 10.25V8.63C16.61 8.45 16.48 8.29 16.3 8.26L14.71 8.02C14.56 7.99 14.44 7.85 14.47 7.69L14.66 6.1C14.69 5.92 14.57 5.74 14.39 5.68L12.89 5.23C12.74 5.19 12.68 5.04 12.76 4.91L13.66 3.47C13.77 3.3 13.73 3.07 13.56 2.96L12.28 2.17Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «видалення вірусів».</p>
+                            <p><strong>Це повне звільнення вашого цифрового світу від шпигунів, шантажистів і тих, хто
+                                краде ваш час.</strong></p>
+                            <p>Ви коли-небудь відчували, що:</p>
+                            <p>• Ваш ПК сповільнюється раптово, наче хтось натиснув невидимий гальмів?</p>
+                            <p>• Вискакують дивні реклами, наче хтось читає ваші думки?</p>
+                            <p>• Ви боїтеся вводити паролі, адже хтось може їх побачити?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#virus-details">Детальніше</a>
+                </div>
+
+                <!-- Driver Installation Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Встановлення драйверів та оновлень</p></div>
+                        <span class="card-price">₴200</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.25 9.05C11.03 9.7 12.97 9.7 14.75 9.05" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.8199 2H7.17995C5.04995 2 3.31995 3.74 3.31995 5.86V19.95C3.31995 21.75 4.60995 22.51 6.18995 21.64L11.0699 18.93C11.5899 18.64 12.4299 18.64 12.9399 18.93L17.8199 21.64C19.3999 22.52 20.6899 21.76 20.6899 19.95V5.86C20.6799 3.74 18.9499 2 16.8199 2Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M16.8199 2H7.17995C5.04995 2 3.31995 3.74 3.31995 5.86V19.95C3.31995 21.75 4.60995 22.51 6.18995 21.64L11.0699 18.93C11.5899 18.64 12.4299 18.64 12.9399 18.93L17.8199 21.64C19.3999 22.52 20.6899 21.76 20.6899 19.95V5.86C20.6799 3.74 18.9499 2 16.8199 2Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «встановлення драйверів».</p>
+                            <p><strong>Це надання вашому пристрою мови, зору і слуху, щоб кожен його компонент співав у
+                                гармонії з іншими.</strong></p>
+                            <p>Ви коли-небудь відчували, що ваш ПК/ноутбук:</p>
+                            <p>• Не бачить принтер, наче він невидимка?</p>
+                            <p>• Глухне до ваших навушників, немов ви в різних вимірах?</p>
+                            <p>• Тормозить під час гри, наче біжить у ватяних кросівках?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#drivers-details">Детальніше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hardware Services Section -->
+        <section class="service-section hardware">
+            <div class="text-header">
+                <h2 class="typing-text">Апаратне обслуговування</h2>
+                <div class="text-textblock">
+                    <ul class="text-block-list">
+                        <li>Ви коли-небудь відчували, що ваші технології зраджують вам?</li>
+                        <li>Що принтер мовчить, коли терміново потрібен документ? Що ноутбук гріється, як піч?</li>
+                        <li>Ви не винен. Технології старіють, коли ми перестаємо їх чути. Але сьогодні ми змінимо
+                            правила гри.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <!-- PC Cleaning Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Чистка ПК</p></div>
+                        <span class="card-price">₴400</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 9V7C2 4 4 2 7 2H17C20 2 22 4 22 7V9" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 15V17C2 20 4 22 7 22H17C20 22 22 20 22 17V15" stroke="#1a1a1a"
+                                      stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M2 12H22" stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «чистка від пилу».</p>
+                            <p><strong>Це хірургічна операція, яка повертає вашому комп'ютеру легені, силу та швидкість
+                                молодості.</strong></p>
+                            <p>Ви коли-небудь замислювались, чому ваш ПК:</p>
+                            <p>• Гріється, як пустеля в полудень?</p>
+                            <p>• Шумить, наче реактивний літак?</p>
+                            <p>• Гальмує навіть у простих задачах, немов везе на собі цілу гору сміття?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#pc-cleaning-details">Детальніше</a>
+                </div>
+
+                <!-- Laptop Cleaning Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Чистка ноутбука</p></div>
+                        <span class="card-price">₴450</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 17H12C12.55 17 13 17.45 13 18V20C13 20.55 12.55 21 12 21H2C1.45 21 1 20.55 1 20V18C1 17.45 1.45 17 2 17Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M22 15V16C22 16.55 21.55 17 21 17H12C11.45 17 11 16.55 11 16V15C11 14.45 11.45 14 12 14H21C21.55 14 22 14.45 22 15Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M7 13V17" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M2 13.03V7C2 4 4 2 7 2H17C20 2 22 4 22 7V13" stroke="#1a1a1a"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «продування пилу».</p>
+                            <p><strong>Це повноцінне омолодження, коли ваш ноутбук скидає шкіру старості та знову стає
+                                блискавичним, тихим і невтомним.</strong></p>
+                            <p>Ви коли-небудь помічали, що ваш ноутбук:</p>
+                            <p>• Гріється, як сковорода, навіть коли ви просто дивитесь YouTube?</p>
+                            <p>• Гуде, наче бджолиний рій, замість того щоб мовчати?</p>
+                            <p>• Гальмує на найпростіших завданнях, наче везе на собі валун?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#laptop-cleaning-details">Детальніше</a>
+                </div>
+
+                <!-- Hardware Upgrade Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Апгрейд пристроїв</p></div>
+                        <span class="card-price">₴300</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.75 22.5H13.27C14.23 22.5 14.85 21.82 14.67 20.99L14.26 19.1H9.76L9.35 20.99C9.17 21.77 9.85 22.5 10.75 22.5Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M14.26 19.1L15.99 17.1H8.01001L9.76001 19.1" stroke="#1a1a1a"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.5 22.5H15.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 1.5C8.41 1.5 5.5 4.41 5.5 8C5.5 10.73 7.06 13.05 9.35 14H14.65C16.94 13.05 18.5 10.73 18.5 8C18.5 4.41 15.59 1.5 12 1.5Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 11C13.1046 11 14 10.1046 14 9C14 7.89543 13.1046 7 12 7C10.8954 7 10 7.89543 10 9C10 10.1046 10.8954 11 12 11Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M15 17.1H9C6.79 17.1 5 15.31 5 13.1V14C5 16.21 6.79 18 9 18H15C17.21 18 19 16.21 19 14V13.1C19 15.31 17.21 17.1 15 17.1Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «додати оперативки».</p>
+                            <p><strong>Це перезавантаження можливостей вашого пристрою, де кожен апгрейд — це крок у
+                                майбутнє, яке вже настало.</strong></p>
+                            <p>Ви коли-небудь відчували, що ваш ПК або ноутбук:</p>
+                            <p>• Загрузнув у минулому, не встигаючи за вашими ідеями?</p>
+                            <p>• Стікає повільно, як патока, коли ви відкриваєте 10 вкладок?</p>
+                            <p>• «Забуває» файли, наче його пам'ять — це сито?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#upgrade-details">Детальніше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Recovery Section -->
+        <section class="service-section data-restore">
+            <div class="text-header">
+                <h2 class="typing-text">Збереження та відновлення даних</h2>
+                <div class="text-textblock">
+                    <ul class="text-block-list">
+                        <li>Ваші дані — це не нулі й одиниці. Це ваші спогади, мрії та частина душі.</li>
+                        <li>Ви коли-небудь відчували, що втрата файлів — це втрата себе?</li>
+                        <li>У цифровому світі ми всі ходимо на краю прірви. Але сьогодні ми змінимо правила.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <!-- Data Recovery Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Відновлення даних</p></div>
+                        <span class="card-price">₴500 - ₴1500</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 10V15C22 20 20 22 15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2H14" stroke="#1a1a1a"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7 13H13" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M7 17H11" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «відновлення даних».</p>
+                            <p><strong>Це археологічна експедиція у цифрову безодню, де кожен знайдений байт — це
+                                повернення частини вашого життя.</strong></p>
+                            <p>Ви коли-небудь відчували, що:</p>
+                            <p>• Ваші фото з дитинства зникли, наче їх ніколи не існувало?</p>
+                            <p>• Робочий проект раптом став «невідомим файлом»?</p>
+                            <p>• Ваш телефон перетворився на порожню скриньку після оновлення?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#data-recovery-details">Детальніше</a>
+                </div>
+
+                <!-- Data Protection Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Захист даних</p></div>
+                        <span class="card-price">₴300</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 11V17L11 15" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M9 17L7 15" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M22 10V15C22 20 20 22 15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2H14" stroke="#1a1a1a"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «налаштування бекапів».</p>
+                            <p><strong>Це створення неприступного сховку, де ваші файли живуть вічно — навіть якщо світ
+                                навколо зникне.</strong></p>
+                            <p>Ви коли-небудь думали, що:</p>
+                            <p>• Ваш жорсткий диск може померти раптово, як квітка під снігом?</p>
+                            <p>• Хмара — це не просто метафора, а єдиний спосіб врятувати фото вашої дитини?</p>
+                            <p>• Зовнішній диск може стати вірнішим, ніж найкращий друг?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#data-protection-details">Детальніше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Network Services Section -->
+        <section class="service-section networking">
+            <div class="text-header">
+                <h2 class="typing-text">Мережеві послуги</h2>
+                <div class="text-textblock">
+                    <ul class="text-block-list">
+                        <li>Мережеві послуги — це не технології. Це ваше право дихати повними легенями в цифровому
+                            світі.
+                        </li>
+                        <li>Ви коли-небудь відчували, що ваш інтернет — це клітка? Що ваші пристрої розмовляють різними
+                            мовами?
+                        </li>
+                        <li>Мережа — це нервова система вашого життя. А коли вона хвора — хворий увесь ваш світ.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <!-- Network Audit Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Аудит мережі</p></div>
+                        <span class="card-price">₴300</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.3 9.39999L6.7 20C5.96 20.74 4.75 20.74 4.01 20C3.27 19.26 3.27 18.05 4.01 17.31L14.61 6.69999C15.1 6.20999 15.89 6.20999 16.38 6.69999C16.87 7.18999 16.87 7.97999 16.38 8.46999L7.12 17.74C6.93 17.93 6.62 17.93 6.43 17.74C6.24 17.55 6.24 17.24 6.43 17.05L14.85 8.62999"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M8.93 1.5H11.93C15.68 1.5 16.43 3.93 16.43 6.43V9.43" stroke="#1a1a1a"
+                                      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.5 22.5H12" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M2 22.5H2.01" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто перевірка.</p>
+                            <p><strong>Це хірургічна точність. Ми знаходимо "мертві зони", вирізаємо перешкоди,
+                                перетворюючи ваш Wi-Fi на бездоганний потік даних.</strong></p>
+                            <p>Ви коли-небудь відчували, що:</p>
+                            <p>• Wi-Fi «вмирає» у ванній кімнаті, немов там живе мережевий вампир?</p>
+                            <p>• Інтернет повзе, як равлик, коли ви дивитесь Netflix?</p>
+                            <p>• Роутер блимає, як ялинка, але ніхто не танцює від щастя?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#network-audit-details">Детальніше</a>
+                </div>
+
+                <!-- Smart Device Setup Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Налаштування SMART-пристроїв</p></div>
+                        <span class="card-price">₴300</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.79 10.47V17.79C17.79 20.12 15.9 22 13.58 22H6.21C3.89 22 2 20.11 2 17.79V10.47C2 8.14 3.89 6.26 6.21 6.26H13.58C15.9 6.26 17.79 8.15 17.79 10.47Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M5.5 4V2.25" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M9.5 4V2.25" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M13.5 4V2.25" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M22 13.16V17.47C22 19.4 20.4 21 18.47 21" stroke="#1a1a1a" stroke-width="1.5"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 13.16H19.04C17.07 13.16 16.04 12.13 16.04 10.16V7.2C16.04 5.23 17.07 4.2 19.04 4.2H21.99"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M6.96997 14H13.03" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M6.96997 17.5H13.03" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «підключити колонку».</p>
+                            <p><strong>Це створення екосистеми, де ваш телевізор розмовляє з лампою, камера стежить за
+                                порядком, а музика плине з кожної кімнати — як по вашому велінню.</strong></p>
+                            <p>Ви коли-небудь відчували, що ваші «розумні» пристрої:</p>
+                            <p>• Глухі до ваших команд, наче грають у жмурки?</p>
+                            <p>• Свариться між собою, немов діти в песочниці?</p>
+                            <p>• Живуть окремо від вас, наче ви арендатор у власному домі?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#smart-devices-details">Детальніше</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consulting Section -->
+        <section class="service-section consulting">
+            <div class="text-header">
+                <h2 class="typing-text">Консультації</h2>
+                <div class="text-textblock">
+                    <ul class="text-block-list">
+                        <li>Консультації — це не відповіді. Це ваш ключ до світу, де технологія слухається вас, а не ви
+                            її.
+                        </li>
+                        <li>Ви коли-небудь відчували, що техніка — це чорний ящик, який ви ніколи не зможете відкрити?
+                        </li>
+                        <li>Технології зростають швидше за нас. Але це не означає, що ви повинні відставати.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <!-- Tech Update Advice Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Поради щодо оновлень техніки</p></div>
+                        <span class="card-price">₴200</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2V5" stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 2V5" stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3.5 9.09H20.5" stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10"
+                                      stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M15.6947 13.7H15.7037" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M15.6947 16.7H15.7037" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M11.9955 13.7H12.0045" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M11.9955 16.7H12.0045" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M8.29431 13.7H8.30329" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M8.29431 16.7H8.30329" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «поради щодо техніки».</p>
+                            <p><strong>Це ваш персональний GPS у світі технологій, де кожен вибір — це крок до
+                                ефективності, елегантності та свободи.</strong></p>
+                            <p>Ви коли-небудь відчували, що:</p>
+                            <p>• Ваш ноутбук відстає від ваших ідей, наче везе якір?</p>
+                            <p>• Магазини техніки — це джунглі, де кожен продавець хоче продати вам змію замість
+                                ліки?</p>
+                            <p>• Новий смартфон здається складнішим, ніж квантова фізика?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#tech-advice-details">Детальніше</a>
+                </div>
+
+                <!-- Basic Skills Training Card -->
+                <div class="card">
+                    <div class="card-face card-front">
+                        <div class="card-header"><p>Навчання базовим навичкам</p></div>
+                        <span class="card-price">₴200</span>
+                        <div class="card-img">
+                            <svg class="card-image" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.74V4.67C22 3.47 21.02 2.58 19.83 2.68H19.77C17.67 2.86 14.48 3.93 12.7 5.05L12.53 5.16C12.24 5.34 11.76 5.34 11.47 5.16L11.22 5.01C9.44 3.9 6.26 2.84 4.16 2.67C2.97 2.57 2 3.47 2 4.66V16.74C2 17.7 2.78 18.6 3.74 18.72L4.03 18.76C6.2 19.05 9.55 20.15 11.47 21.2L11.51 21.22C11.78 21.37 12.21 21.37 12.47 21.22C14.39 20.16 17.75 19.05 19.93 18.76L20.26 18.72C21.22 18.6 22 17.7 22 16.74Z"
+                                      stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M12 5.49V20.49" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M7.75 8.49H5.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                                <path d="M8.5 11.49H5.5" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <p><strong>Що це?</strong></p>
+                            <p>Це не просто «навчання комп'ютеру».</p>
+                            <p><strong>Це ваш ключ до свободи в цифровому світі, де кожен клік — не виклик, а
+                                можливість. Ми перетворимо вашу нерішучість на впевненість, а страх — на
+                                захоплення.</strong></p>
+                            <p>Ви коли-небудь відчували, що:</p>
+                            <p>• Хмара — це щось з погоди, а не місце для ваших фото?</p>
+                            <p>• Бекапи звучать як медичні терміни, а не рятівники ваших даних?</p>
+                            <p>• Банківські операції лякають більше, ніж фільми жахів?</p>
+                        </div>
+                    </div>
+                    <a class="card-button" href="#skills-training-details">Детальніше</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts-section">
+        <h2 class="section-title">Контакти</h2>
+        <div class="contacts-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.31 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                              stroke="#2563eb" stroke-width="1.5" stroke-miterlimit="10"/>
+                    </svg>
+                    <p>+380 (67) 391-34-00</p>
+                </div>
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.5 3L12 12.5" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M21.5 3L14.5 21.5L12 12.5L3 9.5L21.5 3Z" stroke="#2563eb" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="https://t.me/+380673913400">Telegram</a>
+                </div>
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 21H8C5 21 3 19 3 16V8C3 5 5 3 8 3H16C19 3 21 5 21 8V16C21 19 19 21 16 21Z"
+                              stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9 8C10.5 9.5 11.5 10.5 13 12C14.5 13.5 15.5 14.5 17 16" stroke="#2563eb"
+                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14 6C15 7 16 8 17 10C18 12 18 14 17 16" stroke="#2563eb" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                    <a href="viber://chat?number=+380673913400">Viber</a>
+                </div>
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12C21 16.97 16.97 21 12 21C10.21 21 8.53 20.47 7.1 19.53L3 21L4.47 16.9C3.53 15.47 3 13.79 3 12C3 7.03 7.03 3 12 3C16.97 3 21 7.03 21 12Z"
+                              stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 14C14.5 15.5 11.5 13.5 10 12C8.5 10.5 6.5 7.5 8 6" stroke="#2563eb"
+                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="https://wa.me/+380673913400">WhatsApp</a>
+                </div>
+                <div class="contact-item">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 13.43C13.7231 13.43 15.12 12.0331 15.12 10.31C15.12 8.58687 13.7231 7.19 12 7.19C10.2769 7.19 8.88 8.58687 8.88 10.31C8.88 12.0331 10.2769 13.43 12 13.43Z"
+                              stroke="#2563eb" stroke-width="1.5"/>
+                        <path d="M3.62001 8.49C5.59001 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.39001 20.54C5.63001 17.88 2.47001 13.57 3.62001 8.49Z"
+                              stroke="#2563eb" stroke-width="1.5"/>
+                    </svg>
+                    <p>м. Одеса, район 2 та 1 застави</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">Про мене</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Я — інженер. Мій світ побудований на логіці, але його рухає інтуїція. Я не шукаю красивих метафор — я
+                    шукаю рішення. 3D-друк, роботи, радіочастоти, космічні системи — це не хобі. Це інструменти, щоб
+                    зламати статус-кво.</p>
+                <p>Я розумію мову машин. Не тому, що вивчив її, а тому, що сам думаю, як вони: чітко, ієрархічно, без
+                    зайвих деталей. Коли я дивлюся на мікросхему, я бачу не транзистори, а потенціал. Коли проектую
+                    робота — не збираю механізм, а вирішую рівняння з мільйоном змінних.</p>
+                <p>Моя робота — це постійне питання: «Як це може бути простіше? Як зробити, щоб воно працювало не просто
+                    швидше, а елегантніше?» Я не вірю в «неможливо». Я вірю в «поки що не знаємо як». Електротехніка,
+                    радіотехніка, код — це не розділи підручника. Це інструменти, щоб перевіряти грані реальності.</p>
+                <p>Космос? Це не фантастика. Це наступна задача. Як перестати бути прив’язаними до Землі? Як зробити
+                    технології не нашім ярмом, а крилами? Я не мрію про зірки — я розраховую траєкторії.</p>
+                <p>Моя єдина прикраса — прагматизм. Якщо мій 3D-принтер може створити протез, який змінить чиєсь життя,
+                    це важливіше за сто художніх скульптур. Якщо мій код оптимізує енергію мільйона пристроїв — це
+                    прогресс, який можна виміряти.</p>
+                <p>Технології — це не магія. Це важка працягливість. Але саме тому вони змінюють світ: бо за ними стоїть
+                    не екстаз, а дисципліна. Я не будую майбутнє. Я його проектую. По одній деталі. По одному алгоритму.
+                    Без компромісів.</p>
+                <blockquote>
+                    «Технологія повинна бути невидимою. Але коли вона дає збій — ми робимо її знову досконалою. Саме для
+                    цього ми існуємо.»
+                </blockquote>
+            </div>
+            <div class="about-image">
+                <svg viewBox="0 0 64 64" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                     fill="#1a5fb4">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <defs>
+                            <style>.cls-1 {
+                                fill: none;
+                                stroke: #1a5fb4;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                            }</style>
+                        </defs>
+                        <title>science, chemistry, lab, laboratory, experiment</title>
+                        <path class="cls-1"
+                              d="M23.76,33.73a11,11,0,0,0-1.2,1,12.8,12.8,0,0,0-1.27,1.44,11.93,11.93,0,0,0-2.37,6.25,8.67,8.67,0,0,0,0,1A12.11,12.11,0,0,0,27.36,55"></path>
+                        <path class="cls-1"
+                              d="M34.53,55A12.25,12.25,0,0,0,43,44a14.1,14.1,0,0,0,0-1.57,12.18,12.18,0,0,0-5.43-9.1l0,0a11.78,11.78,0,0,0-3-1.4A12.14,12.14,0,0,0,31,31.35"></path>
+                        <path class="cls-1"
+                              d="M35.48,20.1a2.11,2.11,0,0,1,0,4.21h-9a2.11,2.11,0,1,1,0-4.21h6.12"></path>
+                        <path class="cls-1"
+                              d="M21.28,36.18c-.7.73-1.36,1.5-2,2.28s-1,1.39-1.5,2.08c-4.64,7.08-4.18,13.64,1.39,15.2A14,14,0,0,0,27.36,55,26.34,26.34,0,0,0,31,53.42a33.87,33.87,0,0,0,10.49-8.8c.57-.73,1.1-1.47,1.57-2.19s.78-1.26,1.1-1.88c3.33-6.28,2.49-11.8-2.56-13.2a13,13,0,0,0-7,.34h0V24.31H27.33v5.56a1.63,1.63,0,0,0,1.88,1.61A12.25,12.25,0,0,1,31,31.35"></path>
+                        <path class="cls-1"
+                              d="M15.92,32.23c-.38,2.32.24,5.22,1.88,8.31a19.14,19.14,0,0,0,1.11,1.89c.47.73,1,1.46,1.56,2.18A33.87,33.87,0,0,0,31,53.42,27.18,27.18,0,0,0,34.53,55a14,14,0,0,0,8.19.74,7.11,7.11,0,0,0,1.66-.7"></path>
+                        <path class="cls-1"
+                              d="M47.26,50.06c.18-2.69-.86-6-3.15-9.52-.45-.69-1-1.39-1.5-2.08s-1.32-1.59-2-2.34"></path>
+                        <path class="cls-1" d="M19.49,27.66a5.79,5.79,0,0,1,.87-.31,10.19,10.19,0,0,1,3.3-.32"></path>
+                        <path class="cls-1" d="M37.59,33.33l0,0"></path>
+                        <circle class="cls-1" cx="17.13" cy="29.5" r="2.99"></circle>
+                        <circle class="cls-1" cx="46.52" cy="52.95" r="2.99"></circle>
+                        <path class="cls-1" d="M30,16.34a2.51,2.51,0,1,1,3.14-1.65"></path>
+                        <path class="cls-1" d="M28.36,14.75a.7.7,0,0,0-.08-.24h0a1.64,1.64,0,1,0-2,2.18"></path>
+                        <path class="cls-1"
+                              d="M51.54,20.68a4.94,4.94,0,0,1-1.24.79,5,5,0,0,1-.65.24,4.73,4.73,0,0,1-1.08.2,5,5,0,0,1-2.27-.33,4.79,4.79,0,0,1-.8-.38,5.15,5.15,0,0,1-.72-.52,5,5,0,0,1-1.37-1.84h0A4.88,4.88,0,0,1,43,17.11a5,5,0,0,1,.33-2.26h0a4.76,4.76,0,0,1,.9-1.53A5.18,5.18,0,0,1,46,11.94a5.09,5.09,0,0,1,1.34-.39,2.15,2.15,0,0,1,.39,0,4.84,4.84,0,0,1,1.29.06l.23,0a3.73,3.73,0,0,1,.75.23,5,5,0,0,1,1.52.9h0a5,5,0,0,1,1.25,1.58c0,.08.08.16.11.24a5.21,5.21,0,0,1,.44,1.73.79.79,0,0,1,0,.1A5.07,5.07,0,0,1,53,18.57a4.8,4.8,0,0,1-.38.8,4.42,4.42,0,0,1-.53.73h0a3.4,3.4,0,0,1-.39.41A1.4,1.4,0,0,1,51.54,20.68Z"></path>
+                        <circle class="cls-1" cx="48.17" cy="16.7" r="2.09"
+                                transform="translate(9.18 49.56) rotate(-59.25)"></circle>
+                        <rect x="50.34" y="9.63" width="2.3" height="2.97" rx="0.8" ry="0.8"
+                              transform="translate(12.92 -24.77) rotate(30.75)"></rect>
+                        <path d="M47.57,11.67l-.11,0-1,.27a.63.63,0,0,1-.37,0,.6.6,0,0,1-.37-.42l-.43-1.68a.62.62,0,0,1,.45-.74L46,9l.77-.2a.61.61,0,0,1,.75.44L47.9,11a.62.62,0,0,1-.14.56A.57.57,0,0,1,47.57,11.67Z"></path>
+                        <rect x="41.42" y="11.89" width="2.3" height="2.97" rx="0.8" ry="0.8"
+                              transform="translate(9.31 43.13) rotate(-59.25)"></rect>
+                        <rect x="40.71" y="16.82" width="2.3" height="2.97" rx="0.8" ry="0.8"
+                              transform="translate(34.42 63.38) rotate(-104.24)"></rect>
+                        <path d="M46.27,22.14l-.89,1.49a.61.61,0,0,1-.84.21l-.92-.55a.61.61,0,0,1-.21-.84L44.3,21a.61.61,0,0,1,.48-.3.55.55,0,0,1,.36.08l.92.55a.56.56,0,0,1,.24.28A.61.61,0,0,1,46.27,22.14Z"></path>
+                        <path d="M50.65,24.32l-.5.13-.54.14a.61.61,0,0,1-.74-.45l-.43-1.68a.61.61,0,0,1,.13-.55.56.56,0,0,1,.31-.2l.91-.23.14,0a.6.6,0,0,1,.37,0,.63.63,0,0,1,.37.42l.43,1.69A.61.61,0,0,1,50.65,24.32Z"></path>
+                        <rect x="52.61" y="18.55" width="2.3" height="2.97" rx="0.8" ry="0.8"
+                              transform="translate(98.46 -15.93) rotate(120.75)"></rect>
+                        <rect x="53.32" y="13.62" width="2.3" height="2.97" rx="0.8" ry="0.8"
+                              transform="translate(55.71 -41.42) rotate(75.75)"></rect>
+                        <path class="cls-1" d="M49.19,27.61a6.42,6.42,0,0,0,5.58-3.06"></path>
+                        <path class="cls-1"
+                              d="M19.41,17.88a4.34,4.34,0,0,1-.28,1.26,4.41,4.41,0,0,1-.25.55,4.15,4.15,0,0,1-.55.79,4.43,4.43,0,0,1-1.61,1.21,4.2,4.2,0,0,1-.73.26,4.52,4.52,0,0,1-.77.13,4.41,4.41,0,0,1-2-.29h0A4.28,4.28,0,0,1,11.87,21a4.34,4.34,0,0,1-1.2-1.61h0a4,4,0,0,1-.27-.74,4,4,0,0,1-.12-.78,4.55,4.55,0,0,1,.28-2,4.46,4.46,0,0,1,.59-1.07,1.89,1.89,0,0,1,.21-.27,4.25,4.25,0,0,1,.84-.76l.17-.12a3.28,3.28,0,0,1,.61-.32,4.39,4.39,0,0,1,1.51-.38h0a4.36,4.36,0,0,1,1.76.21l.22.08a4.57,4.57,0,0,1,1.35.8l.07.06A4.45,4.45,0,0,1,19,15.64a4.2,4.2,0,0,1,.26.73,3.87,3.87,0,0,1,.12.78h0a3,3,0,0,1,0,.5A1.22,1.22,0,0,1,19.41,17.88Z"></path>
+                        <circle class="cls-1" cx="14.85" cy="17.5" r="1.84"
+                                transform="translate(-3.85 4.19) rotate(-14.25)"></circle>
+                        <rect x="12.43" y="10.66" width="2.02" height="2.6" rx="0.8" ry="0.8"
+                              transform="translate(-2.53 3.68) rotate(-14.25)"></rect>
+                        <path d="M11.35,14.75l0,.09-.49.82a.56.56,0,0,1-.25.22.53.53,0,0,1-.49,0l-1.31-.78a.54.54,0,0,1-.18-.74l.13-.21.35-.6a.54.54,0,0,1,.74-.19l1.31.78a.54.54,0,0,1,.26.43A.5.5,0,0,1,11.35,14.75Z"></path>
+                        <rect x="8.3" y="17.61" width="2.02" height="2.6" rx="0.8" ry="0.8"
+                              transform="translate(-6.72 32.59) rotate(-104.25)"></rect>
+                        <rect x="10.92" y="21.11" width="2.02" height="2.6" rx="0.8" ry="0.8"
+                              transform="translate(10.72 47.77) rotate(-149.24)"></rect>
+                        <path d="M17,22.05l.37,1.47a.54.54,0,0,1-.39.66l-.91.23a.54.54,0,0,1-.66-.39l-.37-1.47a.54.54,0,0,1,.12-.48.49.49,0,0,1,.27-.17l.91-.23a.49.49,0,0,1,.32,0A.54.54,0,0,1,17,22.05Z"></path>
+                        <path d="M21.12,20.69l-.23.39-.25.42a.54.54,0,0,1-.74.18l-1.31-.78a.53.53,0,0,1-.26-.42.49.49,0,0,1,.07-.32l.42-.7.06-.11a.52.52,0,0,1,.25-.22.55.55,0,0,1,.49,0l1.31.78A.54.54,0,0,1,21.12,20.69Z"></path>
+                        <rect x="19.37" y="14.8" width="2.02" height="2.6" rx="0.8" ry="0.8"
+                              transform="translate(30.97 -7.62) rotate(75.75)"></rect>
+                        <rect x="16.76" y="11.29" width="2.02" height="2.6" rx="0.8" ry="0.8"
+                              transform="translate(8.94 -7.31) rotate(30.75)"></rect>
+                        <path class="cls-1" d="M14,7.93a5.64,5.64,0,0,0-4.89,2.69"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <div class="logo-container">
+                <div class="chip-logo">
+                    <svg class="logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"
+                              stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.5 7.58008V8.58008C16.5 9.40008 15.83 10.0801 15 10.0801H9C8.18 10.0801 7.5 9.41008 7.5 8.58008V7.58008C7.5 6.76008 8.17 6.08008 9 6.08008H15C15.83 6.08008 16.5 6.76008 16.5 7.58008Z"
+                              stroke="#2563eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.13599 14H8.14799" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M12 14H12.012" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M15.864 14H15.876" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M8.13599 17.5H8.14799" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M12 17.5H12.012" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M15.864 17.5H15.876" stroke="#2563eb" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+            <span class="text-tech">Tech</span>
+            <span class="text-helper">Helper</span>
+        </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h3>Послуги</h3>
+                <ul>
+                    <li><a href="#services">Програмне обслуговування</a></li>
+                    <li><a href="#services">Апаратне обслуговування</a></li>
+                    <li><a href="#services">Збереження та відновлення даних</a></li>
+                    <li><a href="#services">Мережеві послуги</a></li>
+                    <li><a href="#services">Консультації</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Контакти</h3>
+                <ul>
+                    <li><a href="tel: +380673913400">+380 (67) 39 134 00</a></li>
+                    <li><a href="https://t.me/+380673913400">Telegram</a></li>
+                    <li><a href="viber://chat?number=+380673913400">Viber</a></li>
+                    <li><a href="https://wa.me/+380673913400">WhatsApp</a></li>
+                </ul>
+
+            </div>
+            <div class="footer-column">
+                <h3>Години роботи</h3>
+                <ul>
+                    <li>Пн-Пт: 18:00 - 21:00</li>
+                    <li>Сб: 14:00 - 21:00</li>
+                    <li>Нд: 10:00 - 21:00</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 TechHelper. Всі права захищені.</p>
+    </div>
+</footer>
+
+<div class="dark-mode-toggle">
+    <button id="darkModeToggle" aria-label="Перемкнути темний режим">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M19.14 19.14L19.01 19.01M19.01 4.99L19.14 4.86L19.01 4.99ZM4.86 19.14L4.99 19.01L4.86 19.14ZM12 2.08V2V2.08ZM12 22V21.92V22ZM2.08 12H2H2.08ZM22 12H21.92H22ZM4.99 4.99L4.86 4.86L4.99 4.99Z"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.03 12.42C2.39 17.57 6.76 21.76 11.99 21.99C15.68 22.15 18.98 20.43 20.96 17.72C21.78 16.61 21.34 15.87 19.97 16.12C19.3 16.24 18.61 16.29 17.89 16.26C13 16.06 9 11.97 8.98 7.14C8.97 5.84 9.24 4.61 9.73 3.49C10.27 2.25 9.62 1.66 8.37 2.19C4.41 3.86 1.7 7.85 2.03 12.42Z"
+                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+</div>
+
+</body>
+</html>
