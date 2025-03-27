@@ -762,15 +762,16 @@ body.dark .moon-icon {
         justify-content: center;
         padding-left: 0;
         margin-bottom: 1rem;
+        display:none;
     }
 
     .nav-menu {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 2fr 2fr 2fr;
         gap: 1rem;
     }
 
     .anydesk-button {
-        grid-column: span 2;
+        display: none;
     }
 
     .card-box {
