@@ -781,6 +781,9 @@ body.dark .moon-icon {
     .footer-links {
         grid-template-columns: 1fr;
     }
+    .card-header{
+        margin-bottom: 10rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -803,5 +806,8 @@ body.dark .moon-icon {
 
     .services-header, .section-title {
         font-size: 2rem;
+    }
+    .card-header{
+        margin-bottom: 10rem;
     }
 }
